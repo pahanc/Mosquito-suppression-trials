@@ -3,7 +3,7 @@ This repository contains code for generating simulated data from cluster randomi
 
 P.A. Hancock, T. J. Hui, P. S. Epopa, A. Milogo, A. R. McKemey, F. A. Yao,  A. Diabaté, A. Burt, "Requirements for designing cluster randomised control trials to detect suppression of malaria vector population densities" 
 
-Individual directories contain code written in R and Stata, and the associated vignette describes how the code is implemented to produce the results presented in the study. 
+Individual directories contain code written in R and Stata, and the [associated vignette](https://pahanc.github.io/Mosquito-suppression-trials/) describes how the code is implemented to produce the results presented in the study. 
 
 System requirements: This code is written in R and Stata software, which runs on a wide variety of UNIX platforms, Windows and Mac OS. The R software is quick to install. Stata can be purchased from https://www.stata.com/order/.
 
