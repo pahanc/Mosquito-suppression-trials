@@ -95,4 +95,4 @@ poiss_form <- y ~ 0 + f(BMBS.field, model=BMBS_spde, group=BMBS.field.group,cont
   f(site, model='iid',hyper = eprec_iid) + f(village, model='iid',hyper = eprec_iid2)
 
 ###****************RUN THE INLA MODEL****************
-poiss.res <- inla(poiss_form, family=c('Poisson'), data=inla.stack.data(BMBS_stk1), control.predictor=list(compute=TRUE,A=inla.stack.A(BMBS_stk1)),control.compute=list(config=TRUE,cpo=TRUE),control.inla=list(int.strategy='eb'))
+poiss_PSC.res <- inla(poiss_form, family=c('Poisson'), data=inla.stack.data(BMBS_stk1), control.predictor=list(compute=TRUE,A=inla.stack.A(BMBS_stk1)),control.compute=list(config=TRUE,cpo=TRUE),control.inla=list(int.strategy='eb'))
